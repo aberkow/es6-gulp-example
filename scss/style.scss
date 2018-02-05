@@ -1,0 +1,18 @@
+@import './variables';
+@import './flow';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $main_background_color;
+  color: $main_font_color;
+}
+
+div {
+  border: 1px solid $main_font_color;
+  p {
+    font-size: 1.25em;
+  }
+}
